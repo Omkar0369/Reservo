@@ -1,0 +1,3 @@
+To start this app 
+React+Vite
+npm run dev
