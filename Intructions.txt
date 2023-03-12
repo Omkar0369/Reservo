@@ -1,3 +1,7 @@
 To start this app 
 React+Vite
 npm run dev
+
+axios-to connect frontend with backend and for managing data from get and post
+bcrypt-for encryption of passwords
+jsonwebtoken- for cookie creation
