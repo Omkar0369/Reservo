@@ -87,6 +87,10 @@ app.get('/profile',(req,res)=>{
     
 })
 
+app.post('/logout',(req,res)=>{
+    res.cookie('token','').json(true);
+})
+
 app.listen(3000,function(req,res){
     console.log("Running at port 3000")
 })
